@@ -4,7 +4,7 @@
 
 
 install:
-	cp -f caurds $(DESTDIR)$(PREFIX)/bin
+	cp -f caurds $(DESTDIR)$(PREFIX)/bin/caurds
 	@echo caurds installed.
 
 uninstall:
