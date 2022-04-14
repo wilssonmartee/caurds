@@ -1,6 +1,6 @@
 # CAURDS
 
-**Caurds** is a card helper designed and programmed to handle user-created package descriptions (Pkgfile).
+**Caurds** is a cards helper designed and programmed to handle user-created package descriptions (Pkgfile).
 
 ### NuTyX Xposed: [Repository](https://github.com/wilssonmartee/nutyx-xposed-pkg-x86_64)
 
