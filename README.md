@@ -79,12 +79,12 @@ The line `dir /usr/ports/xposed` must be added.
 **Create the required directories.**
 (as root)
 
-`mkdir /usr/ports/caurds/`
+`mkdir /usr/ports/xposed/caurds/`
 
 **Download required files.**
 (as root)
 
-`cd /usr/ports/caurds`
+`cd /usr/ports/xposed/caurds`
 
 `wget https://raw.githubusercontent.com/wilssonmartee/nutyx-xposed-pkg-x86_64/main/caurds/Pkgfile`
 
