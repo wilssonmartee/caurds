@@ -79,7 +79,7 @@ The line `dir /usr/ports/xposed` must be added.
 **Create the required directories.**
 (as root)
 
-`mkdir /usr/ports/xposed/caurds/`
+`mkdir -p /usr/ports/xposed/caurds/`
 
 **Download required files.**
 (as root)
