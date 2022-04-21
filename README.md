@@ -76,6 +76,22 @@ The line `dir /usr/ports/xposed` must be added.
 
 #### Step 2
 
+**Upgrade system.**
+(as root)
+
+`cards sync`
+
+`cards upgrade`
+
+**Adapt the /etc/pkgmk.conf file**
+
+```
+PKGMK_IGNORE_REPO="no"
+PKGMK_IGNORE_COLLECTION="no"
+```
+
+*⚠️ these variables should be set like this.*
+
 **Create the required directories.**
 (as root)
 
@@ -86,7 +102,7 @@ The line `dir /usr/ports/xposed` must be added.
 
 `cd /usr/ports/xposed/caurds`
 
-`wget https://raw.githubusercontent.com/wilssonmartee/nutyx-xposed-pkg-x86_64/main/caurds/Pkgfile`
+`curl -O https://raw.githubusercontent.com/wilssonmartee/nutyx-xposed-pkg-x86_64/main/caurds/Pkgfile`
 
 **Build caurds.**
 (as root)
