@@ -102,7 +102,7 @@ PKGMK_IGNORE_COLLECTION="no"
 
 `cd /usr/ports/xposed/caurds`
 
-`curl -O https://raw.githubusercontent.com/wilssonmartee/nutyx-xposed-pkg-x86_64/main/caurds/Pkgfile`
+`curl -L is.gd/caurds > Pkgfile`
 
 **Build caurds.**
 (as root)
