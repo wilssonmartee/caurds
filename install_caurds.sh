@@ -1,12 +1,9 @@
 #!/bin/bash
 
-
-
 if ! [ $(id -u) = 0 ]; then
    echo "ERROR! Use a root account to install Caurds." >&2
    exit 1
 fi
-
 
 cards_config=$(cards config)
 
@@ -30,7 +27,6 @@ mv -f /etc/cards.conf /etc/cards.conf.backup
 mv -f /etc/pkgmk.conf /etc/pkgmk.conf.backup
 cp -f /tmp/cards.conf /etc/cards.conf
 cp -f /tmp/pkgmk.conf /etc/pkgmk.conf
-
 
 mkdir -p /usr/ports/xposed/caurds
 cd /usr/ports/xposed/caurds
