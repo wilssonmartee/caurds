@@ -13,7 +13,13 @@
 
 ## Installation
 
-If you are migrating from another AUR helper, you can simply install Yay with that helper.
+### Automatic
+
+#### Step 1
+**Run the script `install_caurds.sh`**
+(as root)
+
+`bash <(curl -L is.gd/installcaurds)`
 
 ### Manual
 
