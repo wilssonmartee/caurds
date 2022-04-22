@@ -32,8 +32,8 @@ cp -f /tmp/cards.conf /etc/cards.conf
 cp -f /tmp/pkgmk.conf /etc/pkgmk.conf
 
 
-mkdir -p /usr/share/ports/xposed/caurds
-cd /usr/share/ports/xposed/caurds
+mkdir -p /usr/ports/xposed/caurds
+cd /usr/ports/xposed/caurds
 curl -O https://raw.githubusercontent.com/wilssonmartee/nutyx-xposed-pkg-x86_64/main/caurds/Pkgfile
 
 pkgmk -d
